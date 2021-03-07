@@ -1,0 +1,91 @@
+{
+  "uid" : "6925021a06d2df43",
+  "name" : "test_login[admin-111111]",
+  "fullName" : "test_demo12#test_login[admin-111111]",
+  "historyId" : "851db84e2895dfe994a5526706f401f5",
+  "time" : {
+    "start" : 1615054278804,
+    "stop" : 1615054278804,
+    "duration" : 0
+  },
+  "description" : "登录用例",
+  "descriptionHtml" : "<p>登录用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "doc",
+    "time" : {
+      "start" : 1615054278803,
+      "stop" : 1615054278803,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "doc::0",
+    "time" : {
+      "start" : 1615054278845,
+      "stop" : 1615054278845,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo12"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "LHL"
+  }, {
+    "name" : "thread",
+    "value" : "22228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo12"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "psw",
+    "value" : "'111111'"
+  }, {
+    "name" : "user",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6925021a06d2df43.json",
+  "parameterValues" : [ "'111111'", "'admin'" ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "ee601c58c9ac397e",
+  "name" : "test_eval[6 * 9-42]",
+  "fullName" : "test_demo6.TestClass1#test_eval[6 * 9-42]",
+  "historyId" : "86abec2b1f22584636a60ef2a4b01f00",
+  "time" : {
+    "start" : 1615054278998,
+    "stop" : 1615054278999,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "AssertionError: assert 54 == 42\n +  where 54 = eval('6 * 9')",
+  "statusTrace" : "self = <test_demo6.TestClass1 object at 0x03F54AF0>, test_input = '6 * 9'\nexpected = 42\n\n    @pytest.mark.parametrize(\"test_input,expected\",\n                             [(\"3+5\", 8),\n                              (\"2+4\", 6),\n                              pytest.param(\"6 * 9\", 42,marks=pytest.mark.xfail)\n                              ])\n    def test_eval(self,test_input, expected):\n>       assert eval(test_input) == expected\nE       AssertionError: assert 54 == 42\nE        +  where 54 = eval('6 * 9')\n\ntest_demo6.py:35: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "doc",
+    "time" : {
+      "start" : 1615054278978,
+      "stop" : 1615054278978,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "doc::0",
+    "time" : {
+      "start" : 1615054279021,
+      "stop" : 1615054279021,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "xfail"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo6"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass1"
+  }, {
+    "name" : "host",
+    "value" : "LHL"
+  }, {
+    "name" : "thread",
+    "value" : "22228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo6"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "42"
+  }, {
+    "name" : "test_input",
+    "value" : "'6 * 9'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "xfail" ]
+  },
+  "source" : "ee601c58c9ac397e.json",
+  "parameterValues" : [ "42", "'6 * 9'" ]
+}

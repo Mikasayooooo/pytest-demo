@@ -1,0 +1,116 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 失败原因：密码为空\nassert False == True",
+      "children" : [ {
+        "name" : "test_login[admin-]",
+        "uid" : "cc5f2205629b7e31",
+        "parentUid" : "6630e481508c0b9a08b466b91058c8a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615054278808,
+          "stop" : 1615054278808,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'admin'" ]
+      }, {
+        "name" : "test_login[admin-]",
+        "uid" : "4189f6e2441c06a9",
+        "parentUid" : "6630e481508c0b9a08b466b91058c8a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615054278852,
+          "stop" : 1615054278853,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'admin'" ]
+      } ],
+      "uid" : "6630e481508c0b9a08b466b91058c8a0"
+    }, {
+      "name" : "AssertionError: 失败原因：密码为空\nassert False",
+      "children" : [ {
+        "name" : "test_login[login1]",
+        "uid" : "d50c5ec597b66a95",
+        "parentUid" : "8db54ace35f061f2165a65801fca156d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615054278864,
+          "stop" : 1615054278864,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ "{'user': 'admin1', 'psw': ''}" ]
+      } ],
+      "uid" : "8db54ace35f061f2165a65801fca156d"
+    }, {
+      "name" : "AssertionError: assert 0",
+      "children" : [ {
+        "name" : "test_answer",
+        "uid" : "a3a1257774ecf830",
+        "parentUid" : "c9c77d7ae15b4ab6e63220cefc19b68f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615054278889,
+          "stop" : 1615054278889,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9c77d7ae15b4ab6e63220cefc19b68f"
+    }, {
+      "children" : [ {
+        "name" : "test_yoyo2",
+        "uid" : "747a0aa022b0826f",
+        "parentUid" : "666d1a31450af3ae8459f14f07f9a1b4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615054278928,
+          "stop" : 1615054278928,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "666d1a31450af3ae8459f14f07f9a1b4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NameError",
+      "children" : [ {
+        "name" : "test_s1",
+        "uid" : "e8d8ae16c372d074",
+        "parentUid" : "d15adc72015c0b15b703c7d8cd098ce8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615054278965,
+          "stop" : 1615054278965,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_s1",
+        "uid" : "57dc24fedfc8c25d",
+        "parentUid" : "d15adc72015c0b15b703c7d8cd098ce8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615054278979,
+          "stop" : 1615054278979,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d15adc72015c0b15b703c7d8cd098ce8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

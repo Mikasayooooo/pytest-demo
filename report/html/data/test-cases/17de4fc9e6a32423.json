@@ -1,0 +1,97 @@
+{
+  "uid" : "17de4fc9e6a32423",
+  "name" : "test_function",
+  "fullName" : "test_demo8.TestClass1#test_function",
+  "historyId" : "1f9f3b5d2858fafd55f0f307d20cf91e",
+  "time" : {
+    "start" : 1615054279041,
+    "stop" : 1615054279041,
+    "duration" : 0
+  },
+  "description" : "will not be setup or run under 'win32' platform",
+  "descriptionHtml" : "<p>will not be setup or run under 'win32' platform</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: does not run on windows",
+  "statusTrace" : "('D:\\\\_root\\\\study\\\\workspace\\\\projects\\\\pytest_study\\\\test_demo8.py', 42, 'Skipped: does not run on windows')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "doc",
+    "time" : {
+      "start" : 1615054279040,
+      "stop" : 1615054279040,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "doc::0",
+    "time" : {
+      "start" : 1615054279043,
+      "stop" : 1615054279043,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo8"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass1"
+  }, {
+    "name" : "host",
+    "value" : "LHL"
+  }, {
+    "name" : "thread",
+    "value" : "22228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo8"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dfa1252333d1c4ca",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: reason",
+      "time" : {
+        "start" : 1615054279040,
+        "stop" : 1615054279040,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17de4fc9e6a32423.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,86 @@
+{
+  "uid" : "a6bf0d8654965924",
+  "name" : "test_the_unknown",
+  "fullName" : "test_demo8.TestClass1#test_the_unknown",
+  "historyId" : "e149f065c68631e5ecd02a8eea2f1df1",
+  "time" : {
+    "start" : 1615054279037,
+    "stop" : 1615054279037,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: no way of currently testing this",
+  "statusTrace" : "('D:\\\\_root\\\\study\\\\workspace\\\\projects\\\\pytest_study\\\\test_demo8.py', 15, 'Skipped: no way of currently testing this')",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "doc",
+    "time" : {
+      "start" : 1615054279040,
+      "stop" : 1615054279040,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "doc::0",
+    "time" : {
+      "start" : 1615054279043,
+      "stop" : 1615054279043,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo8"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass1"
+  }, {
+    "name" : "host",
+    "value" : "LHL"
+  }, {
+    "name" : "thread",
+    "value" : "22228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo8"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6bf0d8654965924.json",
+  "parameterValues" : [ ]
+}

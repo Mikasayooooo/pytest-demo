@@ -1,0 +1,102 @@
+{
+  "uid" : "fc027f04c6e16438",
+  "name" : "test_02[login20]",
+  "fullName" : "test_demo10.Test_xx#test_02[login20]",
+  "historyId" : "e890aa91c6f0a7156065ba1ff73817c2",
+  "time" : {
+    "start" : 1615054278789,
+    "stop" : 1615054278790,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login2",
+    "time" : {
+      "start" : 1615054278787,
+      "stop" : 1615054278787,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "doc",
+    "time" : {
+      "start" : 1615054278787,
+      "stop" : 1615054278787,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "doc::0",
+    "time" : {
+      "start" : 1615054278793,
+      "stop" : 1615054278793,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo10"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_xx"
+  }, {
+    "name" : "host",
+    "value" : "LHL"
+  }, {
+    "name" : "thread",
+    "value" : "22228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login2",
+    "value" : "{'user': 'amdin', 'psw': '111'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc027f04c6e16438.json",
+  "parameterValues" : [ "{'user': 'amdin', 'psw': '111'}" ]
+}

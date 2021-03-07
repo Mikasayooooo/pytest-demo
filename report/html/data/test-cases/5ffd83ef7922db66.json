@@ -1,0 +1,88 @@
+{
+  "uid" : "5ffd83ef7922db66",
+  "name" : "test_yoyo1",
+  "fullName" : "test_demo18#test_yoyo1",
+  "historyId" : "326f8611c5424abf90b394a347e5ec1b",
+  "time" : {
+    "start" : 1615054278920,
+    "stop" : 1615054278922,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "statusMessage" : "AssertionError: assert 'hello' == 'hello world'\n  - hello world\n  + hello",
+  "statusTrace" : "@pytest.mark.xfail()\n    def test_yoyo1():\n        a = \"hello\"\n        b = \"hello world\"\n>       assert a == b\nE       AssertionError: assert 'hello' == 'hello world'\nE         - hello world\nE         + hello\n\ntest_demo18.py:15: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "doc",
+    "time" : {
+      "start" : 1615054278917,
+      "stop" : 1615054278917,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "doc::0",
+    "time" : {
+      "start" : 1615054278928,
+      "stop" : 1615054278928,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "xfail"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo18"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "LHL"
+  }, {
+    "name" : "thread",
+    "value" : "22228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo18"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "xfail" ]
+  },
+  "source" : "5ffd83ef7922db66.json",
+  "parameterValues" : [ ]
+}
