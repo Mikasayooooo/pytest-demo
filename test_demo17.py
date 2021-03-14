@@ -29,4 +29,4 @@ class TestClass:
 
 if __name__ == '__main__':
     # pytest.main(['-q','test_*.py'])
-    pytest.main(['-s', 'test_*.py'])
+    pytest.main(['-s', 'test_*.py','-m=webtest'])

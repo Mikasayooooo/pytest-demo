@@ -8,5 +8,5 @@ import os
 pytest.main(["-s", "--alluredir=./report","--clean-alluredir"])  # 运行 所有测试用例,生成json文件
 
 os.system("allure  generate report/ -o report/html --clean")
-# result = os.system(f"allure serve ./report")
+# result = os.system(f"allure serve ./report/html --clean")
 # print(f"result=./report")

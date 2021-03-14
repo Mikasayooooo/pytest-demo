@@ -1,0 +1,4 @@
+打开blog页面_function
+测试用例test_05,跨模块调用baidu
+执行 teardown!
+文档说明结束
